@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+.hero-section{
+    background-color: #496E57;
+    display: flex;
+    flex-direction: row;
+    padding: 61px 12.5%;
+    height: 563px;
+    justify-content: space-between;
+    column-gap: 4vw;
+}
+.hero-section div{
+    display: grid;
+    align-content: space-between;
+}
+
+.heroImgPar{
+    align-content: center;
+}
+
+.heroImg{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 15px;
+}
+.hero-section h1{
+    color: #F4CE14;
+    font-size: 64px;
+    font-family: Inter;
+    font-weight: 400;
+}
+.hero-section h2{
+    color: white;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 400;
+}
+.hero-section p{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+}
+.hero-section button{
+    color: #495E57;
+    background-color: #F4CE14;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 600;
+    border: 0;
+    border-radius: 20px;
+    padding: 26px 46.5px;
+    width: fit-content;
+    height: fit-content;
+}
+@media screen and (max-width: 1295px) and (min-width: 990px){
+    .hero-section{
+        height: 522px;
+    }
+    .heroImg{
+        width: 400px;
+        height: 400px;
+
+    }
+    .hero-section h1{
+        font-size: 50px;
+
+    }
+    .hero-section h2{
+        color: white;
+        font-size: 32px;
+        font-family: Inter;
+        font-weight: 400;
+    }
+    .hero-section p{
+        font-size: 25px;
+
+    }
+    .hero-section button{
+        font-size: 25px;
+        padding: 20px 38px;
+    }
+}
+@media screen and (max-width: 989px) and (min-width: 672px){
+    .hero-section{
+        height: 422px;
+    }
+    .heroImg{
+        width: 300px;
+        height: 300px;
+
+    }
+    .hero-section h1{
+        font-size: 45px;
+    }
+    .hero-section h2{
+        color: white;
+        font-size: 25px;
+        font-family: Inter;
+        font-weight: 400;
+    }
+    .hero-section p{
+        font-size: 16px;
+
+    }
+    .hero-section button{
+        font-size: 16px;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+}
