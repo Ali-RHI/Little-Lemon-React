@@ -13,30 +13,30 @@ export default function Highlights() {
       <div class="high-orders">
         <article class="high-order">
           <img src={ord1Img} class="high-order-img" />
-          <div>
+          <div class="high-order-box">
             <h3>Greek salad</h3>
             <h5>10.99$</h5>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>order delivery 1$</p>
+          <p class="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="high-order-price">order delivery 1$</p>
         </article>
         <article class="high-order">
           <img src={ord2Img} class="high-order-img" />
-          <div>
+          <div class="high-order-box">
             <h3>Bruschetta</h3>
             <h5>12.99$</h5>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>order delivery 1$</p>
+          <p class="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="high-order-price">order delivery 1$</p>
         </article>
         <article class="high-order">
           <img src={ord3Img} class="high-order-img" />
-          <div>
+          <div class="high-order-box">
             <h3>lemon dessert</h3>
             <h5>9.99$</h5>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>order delivery 1$</p>
+          <p class="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="high-order-price">order delivery 1$</p>
         </article>
       </div>
     </section>

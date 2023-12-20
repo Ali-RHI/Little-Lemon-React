@@ -1,5 +1,6 @@
 import logo from "./content/Logo.svg";
 import "./Nav.css";
+import {Link} from 'react-router-dom';
 
 export default function Nav() {
   return (
@@ -10,6 +11,7 @@ export default function Nav() {
         </li>
         <li>
           <ul class="menu">
+            <Link></Link>
             <li>Login</li>
             <li>About</li>
             <li>Reservation</li>
