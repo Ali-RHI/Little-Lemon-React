@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 export default function Nav() {
   return (
     <nav>
-      <ul class="nav">
+      <ul className="nav">
         <li>
           <img src={logo} />
         </li>
         <li>
-          <ul class="menu">
+          <ul className="menu">
             <Link to="/" className="listItem">Login</Link>
             <Link to="/" className="listItem">About</Link>
             <Link to="/booking" className="listItem">Reservation</Link>

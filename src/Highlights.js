@@ -5,38 +5,38 @@ import "./Highlights.css";
 
 export default function Highlights() {
   return (
-    <section class="highlights">
-      <div class="high-header">
+    <section className="highlights">
+      <div className="high-header">
         <p>This weeks specials!</p>
         <button>Online menu</button>
       </div>
-      <div class="high-orders">
-        <article class="high-order">
-          <img src={ord1Img} class="high-order-img" />
-          <div class="high-order-box">
+      <div className="high-orders">
+        <article className="high-order">
+          <img src={ord1Img} className="high-order-img" />
+          <div className="high-order-box">
             <h3>Greek salad</h3>
             <h5>10.99$</h5>
           </div>
-          <p class="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p class="high-order-price">order delivery 1$</p>
+          <p className="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="high-order-price">order delivery 1$</p>
         </article>
-        <article class="high-order">
-          <img src={ord2Img} class="high-order-img" />
-          <div class="high-order-box">
+        <article className="high-order">
+          <img src={ord2Img} className="high-order-img" />
+          <div className="high-order-box">
             <h3>Bruschetta</h3>
             <h5>12.99$</h5>
           </div>
-          <p class="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p class="high-order-price">order delivery 1$</p>
+          <p className="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="high-order-price">order delivery 1$</p>
         </article>
-        <article class="high-order">
-          <img src={ord3Img} class="high-order-img" />
-          <div class="high-order-box">
+        <article className="high-order">
+          <img src={ord3Img} className="high-order-img" />
+          <div className="high-order-box">
             <h3>lemon dessert</h3>
             <h5>9.99$</h5>
           </div>
-          <p class="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p class="high-order-price">order delivery 1$</p>
+          <p className="high-order-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="high-order-price">order delivery 1$</p>
         </article>
       </div>
     </section>

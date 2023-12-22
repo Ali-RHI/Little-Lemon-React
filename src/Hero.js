@@ -3,7 +3,7 @@ import "./Hero.css"
 
 export default function Hero() {
   return (
-    <section class="hero-section">
+    <section className="hero-section">
       <div>
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
         <button>Reserve a table</button>
       </div>
-      <div class="heroImgPar"><img src={menuImg} class="heroImg" /></div>
+      <div className="heroImgPar"><img src={menuImg} className="heroImg" /></div>
     </section>
   );
 }

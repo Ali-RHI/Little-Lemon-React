@@ -5,10 +5,14 @@
     justify-content:space-between;
     padding: 0;
 }
-li{
+a, li{
     list-style-type: none;
     align-self: center;
     font-size: 20px;
+    font-family: Inter;
+  font-weight: 500;
+  text-decoration: none;
+  color: #495E57;
 }
 .menu{
     display: flex;
