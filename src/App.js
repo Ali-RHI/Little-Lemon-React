@@ -5,6 +5,7 @@ import Footer from "./Footer.js";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import { useReducer } from "react";
 import BookingForm from "./BookingForm.js";
+import BookingConfirmed from "./BookingConfirmed.js";
 
 function App() {
 
@@ -57,7 +58,8 @@ function submitForm(formData){
       <Nav />
       <Routes>
         <Route path="/" element={ <Main/>}/>
-        <Route path="/booking" element={ <BookingForm availableTimes={times} dispatch={dispatch}/>}/>
+        <Route path="/booking" element={ <BookingForm availableTimes={times} dispatch={dispatch} submitForm={submitForm}/>}/>
+        <Route path="/confirmed" element={ <BookingConfirmed availableTimes={times} dispatch={dispatch} submitForm={submitForm}/>}/>
       </Routes>
       <Footer />
     </>
