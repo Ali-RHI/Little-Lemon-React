@@ -57,7 +57,9 @@ export default function BookingForm(props) {
         </span>
       </span>
       <span>
-        <input type="submit" value="Make your reservation" />
+        <input type="submit" value="Make your reservation" aria-label="On Click"
+
+/>
       </span>
     </form>
   );
